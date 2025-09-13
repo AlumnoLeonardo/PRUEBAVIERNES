@@ -39,4 +39,12 @@
         android:layout_height="wrap_content"
         android:text="Alimentación"/>
 
+    <Button
+        android:id="@+id/btnTiendas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiendas Cercanas"
+        android:layout_marginTop="16dp"/>
+
+
 </LinearLayout>

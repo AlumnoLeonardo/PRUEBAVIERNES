@@ -47,6 +47,12 @@
 
         <activity android:name=".AlimentacionActivity" />
 
+        <activity android:name=".TiendasActivity" />
+
+        <!-- NUEVA ACTIVITY: Tiendas -->
+        <activity android:name=".TiendasActivity" />
+
+
     </application>
 
 </manifest>
