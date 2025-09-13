@@ -45,6 +45,8 @@
         <!-- NUEVA ACTIVITY: Historia de Desarrolladores -->
         <activity android:name=".HistoriaDesarrolladoresActivity" />
 
+        <activity android:name=".AlimentacionActivity" />
+
     </application>
 
 </manifest>
