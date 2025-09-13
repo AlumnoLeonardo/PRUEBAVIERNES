@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AlimentacionActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:text="Rutina de Dieta Balanceada"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/textViewDiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lunes:\nDesayuno: Avena con frutas y nueces. \nAlmuerzo: Ensalada de pollo a la parrilla y vegetales. \nCena: Salmón al horno con espárragos. \n\nMartes:\nDesayuno: Yogur griego con bayas y miel. \nAlmuerzo: Sándwich de pavo en pan integral. \nCena: Tacos de pescado con aguacate. \n\nMiércoles:\nDesayuno: Huevos revueltos con espinacas. \nAlmuerzo: Lentejas con arroz integral y una guarnición de vegetales. \nCena: Pollo salteado con brócoli y pimientos. \n\nJueves:\nDesayuno: Batido de proteínas con plátano y espinacas. \nAlmuerzo: Wrap de pollo con humus y lechuga. \nCena: Sopa de tomate y ensalada. \n\nViernes:\nDesayuno: Panqueques de avena con jarabe de arce. \nAlmuerzo: Pescado a la parrilla con patatas dulces y guisantes. \nCena: Pizza casera de coliflor con vegetales y queso bajo en grasa. \n\nSábado:\nDesayuno: Tostada de aguacate con un huevo escalfado. \nAlmuerzo: Ensalada de pasta de trigo integral con vegetales y garbanzos. \nCena: Hamburguesa de pavo en pan integral con ensalada de col. \n\nDomingo:\nDesayuno: Batido verde con espinacas, manzana y jengibre. \nAlmuerzo: Sándwich de pavo con lechuga, tomate y mostaza. \nCena: Pescado al vapor con judías verdes y cebollas. "
+            android:textSize="16sp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver al Menú Principal" />
+
+</LinearLayout>

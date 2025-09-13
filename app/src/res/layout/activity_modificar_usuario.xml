@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"/>
+
+        <EditText
+            android:id="@+id/etFechaIngreso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha Ingreso"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/etRut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="RUT"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/etEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Estado"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/etVencimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha Vencimiento"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/etTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipo Subscripción"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnGuardarCambios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar Cambios"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</ScrollView>
