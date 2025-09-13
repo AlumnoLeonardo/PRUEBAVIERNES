@@ -32,14 +32,27 @@ public class AgregarUsuarioActivity extends AppCompatActivity {
                 return;
             }
 
+            String tipoUsuario;
+
+            // Funcionalidad notoria: validación extra para tipo de usuario
+            if (etTipo.getText().toString().isEmpty()) {
+                tipoUsuario = "Regular";
+                Toast.makeText(this, "Tipo de usuario no ingresado, se asigna 'Regular'", Toast.LENGTH_LONG).show();
+            } else {
+                tipoUsuario = etTipo.getText().toString();
+            }
+
             Usuario u = new Usuario(
                     etNombre.getText().toString(),
                     etFechaIngreso.getText().toString(),
                     etRut.getText().toString(),
                     etEstado.getText().toString(),
                     etVencimiento.getText().toString(),
-                    etTipo.getText().toString()
+                    tipoUsuario
             );
+
+            // Registro en consola
+            System.out.println("Usuario agregado: " + etNombre.getText().toString() + " | Tipo: " + tipoUsuario);
 
             DataHolder.usuarios.add(u);
             Toast.makeText(this, "Usuario agregado", Toast.LENGTH_SHORT).show();
