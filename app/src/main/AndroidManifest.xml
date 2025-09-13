@@ -42,6 +42,9 @@
         <!-- Detalle de usuario seleccionado -->
         <activity android:name=".DetalleUsuarioActivity" />
 
+        <!-- NUEVA ACTIVITY: Historia de Desarrolladores -->
+        <activity android:name=".HistoriaDesarrolladoresActivity" />
+
     </application>
 
 </manifest>

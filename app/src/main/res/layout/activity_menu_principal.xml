@@ -23,5 +23,13 @@
         android:id="@+id/btnAgregar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Agregar Usuario"/>
+        android:text="Agregar Usuario"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- NUEVO BOTÓN -->
+    <Button
+        android:id="@+id/btnHistoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Historia Desarrolladores"/>
 </LinearLayout>
